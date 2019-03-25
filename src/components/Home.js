@@ -10,6 +10,7 @@ const Contact = () => {
             Categories:
             <Link to="/about"><h3>About Me</h3></Link>
             <Link to="/projects"><h3>Projects</h3></Link>
+            <Link to="/blog"><h3>Blog</h3></Link>
             <Link to="/contact"><h3>Contact Me</h3></Link>
         </React.Fragment>
     )
