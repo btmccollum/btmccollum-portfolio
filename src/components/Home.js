@@ -1,18 +1,34 @@
 import React from 'react';
+import headshot from '../images/mccollum-headshot.jpg'
 import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faTwitterSquare faGithubSquare faLinkedin } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faTwitterSquare faGithubSquare faLinkedin)
 
 const Contact = () => {
 
     return (
-        <React.Fragment>
-            <h1>My Portfolio Test Header</h1>
+        <Container>
+            <Row>
+                <Col className="headshot">
+                    <img src={headshot} alt="my headshot" className="me" /> 
+                </Col>
 
-            Categories:
-            <Link to="/about"><h3>About Me</h3></Link>
-            <Link to="/projects"><h3>Projects</h3></Link>
-            <Link to="/blog"><h3>Blog</h3></Link>
-            <Link to="/contact"><h3>Contact Me</h3></Link>
-        </React.Fragment>
+                <Col className="headshotInfo">
+                    <h1>Brad McCollum</h1>
+                </Col>
+
+                <Col>
+                    <Link to="/about">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/blog">Blog</Link>
+                    <Link to="/contact">Contact Me</Link>
+                </Col>
+            </Row>
+        </Container>
     )
 }
 
