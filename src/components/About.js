@@ -3,7 +3,10 @@ import React from 'react';
 const About = () => {
 
     return (
-        <h1>About Me</h1>
+        <section id="about">
+            <h1>About Me</h1>
+        </section>
+        
     )
 }
 

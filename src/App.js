@@ -18,16 +18,22 @@ library.add(fab)
 class App extends Component {
   render() {
     return (
-      // <div className="App">
-      <Container>
+      <div className="App">
+      {/* <Container>
         <NavBar />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
-      </Container>
-      // </div>
+      </Container> */}
+      <NavBar />
+      <Home />
+      <About />
+      <Projects />
+      <Blog />
+      <Contact />
+      </div>
     );
   }
 }

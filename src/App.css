@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -17,10 +17,19 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.center { 
+  margin: 0 auto; 
 }
 
-.App-link {
-  color: #61dafb;
+.content { 
+  margin: 0 auto; 
+  width: 960px; 
+}
+
+.clear { 
+  clear: both; 
 }
 
 .profile {
@@ -29,11 +38,32 @@
 
 .headshotInfo {
   /* float: left; */
+  margin-left: 50px !important;
 }
 
-.socials {
+/* --- SOCIAL MEDIA ICONS --- */
 
+.socials svg {
+  padding-right: 20px;
 }
+
+.socials a:link{
+  color: black;
+}
+.socials a:visited{
+  color: black;
+}
+.socials a:hover{
+  color: black;
+}
+.socials a:focus{
+  color: black;
+}
+.socials a:active{
+  color: black;
+}
+
+/*  --- OPTIONS --- */
 
 .options {
   clear: both;
@@ -45,6 +75,51 @@
   height: 125px;
   width: auto;
   float: left;
+}
+
+#home {
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+#about {
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+#blog {
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+#contact {
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+#projects {
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
 }
 
 @keyframes App-logo-spin {

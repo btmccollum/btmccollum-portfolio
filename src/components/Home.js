@@ -7,37 +7,37 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Contact = () => {
 
     return (
-        <>
-            <Container>
+        <section id="home">
+            <Container className="content">
                 <Row>
-                    <Col className="headshot" xs={3}>
+                    <Col className="headshot" xs={4}>
                         <img src={headshot} alt="my headshot" className="me" /> 
                     </Col>
     
-                    <Col className="headshotInfo" xs={6}>
-                        <h1>Brad McCollum</h1>
-                        <Row>
+                    <Col className="headshotInfo" xs={8}>
+                        <h1 className="name">Brad McCollum</h1>
+                        <Row className="justify-content-md-center">
                             <Col className="socials">
-                                <FontAwesomeIcon icon={["fab", "github-square"]} />
-                                <FontAwesomeIcon icon={["fab", "linkedin"]} />    
-                                <FontAwesomeIcon icon={["fab", "twitter-square"]} />
+                                <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a> 
+                                <a href="https://www.linkedin.com/in/btmccollum/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" /></a>
+                                <a href="https://www.twitter.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
                             </Col>
                         </Row>
                     </Col>
                 </Row>
             </Container>
 
-            <Container>
+            {/* <Container>
                 <Row>
-                    <Col>
-                        <Link to="/about">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/blog">Blog</Link>
+                    <Col className="options">
+                        <Link to="/about">About Me</Link> | 
+                        <Link to="/projects">Projects</Link> | 
+                        <Link to="/blog">Blog</Link> | 
                         <Link to="/contact">Contact Me</Link>
                     </Col>
                 </Row>
-            </Container>
-        </>
+            </Container> */}
+        </section>
     )
 }
 
