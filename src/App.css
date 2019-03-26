@@ -23,8 +23,20 @@
   color: #61dafb;
 }
 
+.profile {
+  max-width: 25em;
+}
+
 .headshotInfo {
-  
+  /* float: left; */
+}
+
+.socials {
+
+}
+
+.options {
+  clear: both;
 }
 
 .me {
@@ -32,6 +44,7 @@
   border-radius: 50%;
   height: 125px;
   width: auto;
+  float: left;
 }
 
 @keyframes App-logo-spin {
