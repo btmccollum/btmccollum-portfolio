@@ -8,38 +8,27 @@ const Home = () => {
 
     return (
         <section id="home">
-            <Container className="content">
-                <Row>
-                    <Col className="headshot" xs={4}>
-                        <img src={headshot} alt="my headshot" className="me" /> 
+            <Container className="content h-100">
+                {/* <h1>Brad McCollum</h1> */}
+                <Row className="contentRow align-content-center">
+                    <Col xs={4} className="headshotCol">
+                        <div className="headshot h-100">
+                            <img src={headshot} alt="my headshot" className="me img-fluid" /> 
+                        </div>
                     </Col>
     
-                    <Col className="headshotInfo" xs={8}>
-                        {/* <h1 className="name">Brad McCollum</h1> */}
-                        <Row>
-                            <Col className="socials">
-                                <span class="divider"></span>
-                                <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a> 
-                                <span class="divider"></span>
-                                <a href="https://www.linkedin.com/in/btmccollum/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" /></a>
-                                <span class="divider"></span>
-                                <a href="https://www.twitter.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
-                            </Col>
-                        </Row>
+                    <Col xs={8} className="socialsCol">
+                        <div className="socials">
+                            <span className="divider"></span>
+                            <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a> 
+                            <span className="divider"></span>
+                            <a href="https://www.linkedin.com/in/btmccollum/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" /></a>
+                            <span className="divider"></span>
+                            <a href="https://www.twitter.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
+                        </div>
                     </Col>
                 </Row>
             </Container>
-
-            {/* <Container>
-                <Row>
-                    <Col className="options">
-                        <Link to="/about">About Me</Link> | 
-                        <Link to="/projects">Projects</Link> | 
-                        <Link to="/blog">Blog</Link> | 
-                        <Link to="/contact">Contact Me</Link>
-                    </Col>
-                </Row>
-            </Container> */}
         </section>
     )
 }
