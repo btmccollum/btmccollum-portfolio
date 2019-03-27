@@ -37,7 +37,7 @@
 
 span.divider {
   flex: 1;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(237, 234, 229);
   margin: 0px
 }
 
@@ -46,19 +46,19 @@ span.divider {
 }
 
 .socials a:link{
-  color: black;
+  color: rgb(237, 234, 229);
 }
 .socials a:visited{
-  color: black;
+  color: rgb(237, 234, 229);
 }
 .socials a:hover{
-  color: black;
+  color: rgb(237, 234, 229);
 }
 .socials a:focus{
-  color: black;
+  color: rgb(237, 234, 229);
 }
 .socials a:active{
-  color: black;
+  color: rgb(237, 234, 229);
 }
 
 /*  --- OPTIONS --- */
@@ -86,7 +86,7 @@ span.divider {
 }
 
 .me {
-  border: 2px solid black;
+  border: 2px solid rgb(237, 234, 229);
   border-radius: 50%;
   /* height: 10em; */
   height: 100%;
@@ -94,8 +94,16 @@ span.divider {
   float: left;
 }
 
+.navBar {
+  background: rgb(28, 24, 24);
+}
+
+.navBar .nav-link {
+  color: rgb(237, 234, 229) !important;
+}
+
 #home {
-  background-color: #rgb(237, 234, 229);
+  background-color: rgb(28, 24, 24);
   /* display: flex; */
   color: #333333;
   height: 100vh;
@@ -105,7 +113,7 @@ span.divider {
 }
 
 #about {
-  background-color: #rgb(237, 234, 229);
+  background-color: rgb(237, 234, 229);
   color: #333333;
   height: 100vh;
   margin: 0 auto;
@@ -114,7 +122,7 @@ span.divider {
 }
 
 #blog {
-  background-color: #rgb(237, 234, 229);
+  background-color: rgb(237, 234, 229);
   color: #333333;
   height: 100vh;
   margin: 0 auto;
@@ -123,7 +131,7 @@ span.divider {
 }
 
 #contact {
-  background-color: #rgb(237, 234, 229);
+  background-color: rgb(237, 234, 229);
   color: #333333;
   height: 25vh;
   margin: 0 auto;
@@ -132,7 +140,7 @@ span.divider {
 }
 
 #projects {
-  background-color: #rgb(237, 234, 229);
+  background-color: rgb(237, 234, 229);
   color: #333333;
   height: 100vh;
   margin: 0 auto;

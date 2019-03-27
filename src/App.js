@@ -25,8 +25,9 @@ class App extends Component {
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
         </Container> */}
-        <NavBar />
+        {/* <NavBar /> */}
         <Home />
+        <NavBar />
         <About />
         <Projects />
         <Blog />

@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
         <section id="home">
-            <Container className="content h-100">
+            <Container className="content h-100 justify-content-center">
                 {/* <h1>Brad McCollum</h1> */}
                 <Row className="contentRow align-content-center">
                     <Col xs={4} className="headshotCol">
