@@ -1,7 +1,13 @@
-/* .App {
-  text-align: center;
+.App {
+  /* text-align: center; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  /* display: flex; */
 }
-
+/* 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -16,32 +22,37 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-.center { 
-  margin: 0 auto; 
-}
-
-.content { 
-  margin: 0 auto; 
-  width: 960px; 
-}
+  color: white; */
+/* } */
 
 .clear { 
   clear: both; 
 }
 
-.profile {
-  max-width: 25em;
-}
+/* .name {
+  font-size: 2.5em;
+} */
 
-.headshotInfo {
-  /* float: left; */
-  margin-left: 50px !important;
-}
+/* .profile {
+  max-width: 25em;
+} */
+
 
 /* --- SOCIAL MEDIA ICONS --- */
+.socialRow {
+  height: 100%;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+span.divider {
+  flex-grow: .025;
+  border-bottom: 2px solid black;
+  margin: 0px
+}
 
 .socials svg {
   padding-right: 20px;
@@ -69,16 +80,32 @@
   clear: both;
 }
 
+/* .headshotInfo {
+  margin-left: 50px;
+} */
+
+/* .headshot {
+  height: 50%;
+} */
+
+.headshotInfo {
+  /* float: left; */
+  /* margin-left: 50px !important; */
+  /* height: 100%; */
+  
+}
+
 .me {
   border: 3px solid black;
   border-radius: 50%;
-  height: 125px;
+  height: 10em;
   width: auto;
   float: left;
 }
 
 #home {
-  background-color: #fff;
+  background-color: #rgb(237, 234, 229);
+  display: flex;
   color: #333333;
   height: 300px;
   margin: 0 auto;
@@ -87,7 +114,7 @@
 }
 
 #about {
-  background-color: #fff;
+  background-color: #rgb(237, 234, 229);
   color: #333333;
   height: 300px;
   margin: 0 auto;
@@ -96,7 +123,7 @@
 }
 
 #blog {
-  background-color: #fff;
+  background-color: #rgb(237, 234, 229);
   color: #333333;
   height: 300px;
   margin: 0 auto;
@@ -105,7 +132,7 @@
 }
 
 #contact {
-  background-color: #fff;
+  background-color: #rgb(237, 234, 229);
   color: #333333;
   height: 300px;
   margin: 0 auto;
@@ -114,13 +141,15 @@
 }
 
 #projects {
-  background-color: #fff;
+  background-color: #rgb(237, 234, 229);
   color: #333333;
   height: 300px;
   margin: 0 auto;
   overflow: hidden;
   padding: 200px 0;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

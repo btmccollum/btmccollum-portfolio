@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Contact = () => {
+const Home = () => {
 
     return (
         <section id="home">
@@ -15,11 +15,14 @@ const Contact = () => {
                     </Col>
     
                     <Col className="headshotInfo" xs={8}>
-                        <h1 className="name">Brad McCollum</h1>
-                        <Row className="justify-content-md-center">
+                        {/* <h1 className="name">Brad McCollum</h1> */}
+                        <Row>
                             <Col className="socials">
+                                <span class="divider"></span>
                                 <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a> 
+                                <span class="divider"></span>
                                 <a href="https://www.linkedin.com/in/btmccollum/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" /></a>
+                                <span class="divider"></span>
                                 <a href="https://www.twitter.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
                             </Col>
                         </Row>
@@ -41,4 +44,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default Home;
