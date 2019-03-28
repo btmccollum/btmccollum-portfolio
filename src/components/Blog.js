@@ -4,7 +4,7 @@ const Blog = () => {
 
     return (
         <section id="blog">
-            <h1>Blog</h1>
+            <h1 className="sectionTitle">Blog</h1>
         </section>
     )
 }

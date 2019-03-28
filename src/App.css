@@ -35,29 +35,40 @@
   align-items: center;
 }
 
+.socialsContact {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 span.divider {
   flex: 1;
   border-bottom: 2px solid rgb(237, 234, 229);
   margin: 0px
 }
 
-.socials svg {
-  /* padding-right: 20px; */
+span.spacer {
+  margin: 2%;
 }
 
-.socials a:link{
+.socials, a:link,
+.socialsContact, a:link {
   color: rgb(237, 234, 229);
 }
-.socials a:visited{
+.socials, a:visited,
+.socialsContact, a:visited{
   color: rgb(237, 234, 229);
 }
-.socials a:hover{
+.socials, a:hover,
+.socialsContact, a:hover{
   color: rgb(237, 234, 229);
 }
-.socials a:focus{
+.socials, a:focus,
+.socialsContact, a:focus{
   color: rgb(237, 234, 229);
 }
-.socials a:active{
+.socials, a:active,
+.socialsContact, a:active{
   color: rgb(237, 234, 229);
 }
 
@@ -131,9 +142,9 @@ span.divider {
 }
 
 #contact {
-  background-color: rgb(237, 234, 229);
-  color: #333333;
-  height: 25vh;
+  background-color: rgb(28, 24, 24);
+  color: rgb(237, 234, 229);
+  height: 20vh;
   margin: 0 auto;
   overflow: hidden;
   /* padding: 200px 0; */
@@ -148,7 +159,14 @@ span.divider {
   /* padding: 200px 0; */
 }
 
+.sectionTitle {
+  font-size: 3em;
+  font-weight: bold;
+}
 
+.headerTitle {
+  font-weight: bold;
+}
 
 @keyframes App-logo-spin {
   from {

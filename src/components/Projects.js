@@ -6,7 +6,7 @@ const Projects = () => {
 
     return (
         <section id="projects">
-            <h1>Projects</h1>
+            <h1 className="sectionTitle">Projects</h1>
            
         </section>
     )
