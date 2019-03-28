@@ -168,6 +168,23 @@ span.spacer {
   font-weight: bold;
 }
 
+.navLink {
+  font-weight: bold;
+}
+
+/* --- PROJECTS --- */
+
+.projectBox {
+  background: rgb(28, 24, 24);
+  color: rgb(237, 234, 229);
+  border: 1px solid black;
+  border-radius: 3.5px;
+  height: 200px;
+  padding: 2.5%;
+  /* height: 85%; */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

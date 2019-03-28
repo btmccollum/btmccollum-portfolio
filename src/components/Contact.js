@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Row, Col } from 'react-bootstrap';
 
-// const Contact = () => {
-
 class Contact extends Component {
     constructor(props) {
         super(props)
@@ -15,7 +13,7 @@ class Contact extends Component {
     render() {
         return (
             <section id="contact" ref={this.myRef}>
-                    <Container fluid className="align-content-center h-100">
+                    <Container fluid className="h-100">
                         <Row className="justify-content-center align-content-center h-100">
                             <Col sm={3}>
                                 <div>
@@ -25,17 +23,17 @@ class Contact extends Component {
                     
                             <Col sm={8}>
                                 <Row>
-                                    <Col md={3} xs={3}>
+                                    <Col md={3} xs={4}>
                                         <h5 className="headerTitle">Location</h5>
                                         <a>Fort Worth, Texas</a>
                                     </Col>
 
-                                    <Col md={5} xs={5}>
+                                    <Col md={5} xs={6}>
                                         <h5 className="headerTitle">Email</h5>
                                         <a href="mailto:#">bmccollum.swe@gmail.com</a>
                                     </Col>
 
-                                    <Col md={4} xs={4}>
+                                    <Col md={4} xs={12}>
                                         <h5 className="headerTitle">Social Media</h5>
 
                                         <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a>
