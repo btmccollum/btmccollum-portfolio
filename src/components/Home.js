@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
         <section id="home">
-            <Container className="content h-100 justify-content-center">
+            <Container className="content h-100 align-content-center justify-content-center">
                 {/* <h1>Brad McCollum</h1> */}
                 <Row className="contentRow align-content-center">
                     <Col xs={4} className="headshotCol">
@@ -26,6 +26,11 @@ const Home = () => {
                             <span className="divider"></span>
                             <a href="https://www.twitter.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
                         </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <span className="homeName">brad mcCollum</span>
                     </Col>
                 </Row>
             </Container>

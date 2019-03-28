@@ -16,6 +16,16 @@
   clear: both; 
 }
 
+/* --- HOME --- */
+
+span.homeName {
+  color: rgb(237, 234, 229);
+  font-family: 'Permanent Marker', cursive;
+  /* padding-bottom: 15%; */
+  /* clear: both; */
+  float: left;
+}
+
 /* --- SOCIAL MEDIA ICONS --- */
 
 .name {
@@ -76,9 +86,10 @@ span.spacer {
 
 .content{
   display: flex;
-  /* flex-flow: column; */
-  /* flex-wrap: wrap; */
-  width: 85%
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 75%
 }
 
 .contentRow{
@@ -101,8 +112,11 @@ span.spacer {
   border-radius: 50%;
   /* height: 10em; */
   height: 100%;
+  max-height: 200px;
   width: 100%;
-  float: left;
+  /* max-width: 180px; */
+  
+  /* float: left; */
 }
 
 .navBar {
@@ -129,6 +143,7 @@ span.spacer {
   height: 100vh;
   margin: 0 auto;
   overflow: hidden;
+  padding-top: 5%;
   /* padding: 200px 0; */
 }
 
