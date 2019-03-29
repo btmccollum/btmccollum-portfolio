@@ -197,6 +197,10 @@ span.spacer {
   /* height: 85%; */
 }
 
+.contactBlock {
+  text-align: center;
+}
+
 
 @keyframes App-logo-spin {
   from {

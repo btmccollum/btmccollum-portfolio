@@ -16,24 +16,24 @@ class Contact extends Component {
                     <Container fluid className="h-100">
                         <Row className="justify-content-center align-content-center h-100">
                             <Col sm={3}>
-                                <div>
+                                <div className="contactBlock">
                                     <h2 className="margin-b-0 sectionTitle">Contact</h2>
                                 </div>
                             </Col>
                     
                             <Col sm={8}>
-                                <Row>
-                                    <Col md={3} xs={4}>
+                                <Row className="justify-content-center">
+                                    <Col md={3} xs={4} className="contactBlock">
                                         <h5 className="headerTitle">Location</h5>
                                         <a>Fort Worth, Texas</a>
                                     </Col>
 
-                                    <Col md={5} xs={6}>
+                                    <Col md={5} xs={6} className="contactBlock">
                                         <h5 className="headerTitle">Email</h5>
                                         <a href="mailto:#">bmccollum.swe@gmail.com</a>
                                     </Col>
 
-                                    <Col md={4} xs={12}>
+                                    <Col md={4} xs={12} className="contactBlock">
                                         <h5 className="headerTitle">Social Media</h5>
 
                                         <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a>

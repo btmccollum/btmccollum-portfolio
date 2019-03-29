@@ -7,10 +7,11 @@ const NavBar = () => {
         <Container>
             <Navbar fixed="top" className="navBar justify-content-center">
                 <Nav>
-                    <Nav.Link href="/home" className="navLink">ABOUT</Nav.Link>
-                    <Nav.Link eventKey="/projects" className="navLink">PROJECTS</Nav.Link>
-                    <Nav.Link eventKey="/blog" className="navLink">BLOG</Nav.Link>
-                    <Nav.Link eventKey="/blog" className="navLink">CONTACT</Nav.Link>
+                    <Nav.Link href="/home" className="navLink">About</Nav.Link>
+                    <Nav.Link eventKey="/projects" className="navLink">Projects</Nav.Link>
+                    <Nav.Link eventKey="/blog" className="navLink">Blog</Nav.Link>
+                    <Nav.Link eventKey="/contact" className="navLink">Contact</Nav.Link>
+                    <Nav.Link href="https://drive.google.com/open?id=1Ycoomohehryhap_UO56rM1UmDc9YdXE5" target="_blank" className="navLink">Résumé</Nav.Link>
                 </Nav>
             </Navbar>
         </Container>
