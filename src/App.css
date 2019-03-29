@@ -1,11 +1,5 @@
 .App {
-  /* text-align: center; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   height: 100vh;
-  /* display: flex; */
 }
 
 .page-content.entry-content pre {
@@ -18,12 +12,16 @@
 
 /* --- HOME --- */
 
+.nameBanner {
+  position: relative;
+  top: 25%;
+}
+
 span.homeName {
   color: rgb(237, 234, 229);
-  font-family: 'Permanent Marker', cursive;
-  /* padding-bottom: 15%; */
-  /* clear: both; */
-  float: left;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 5vh;
 }
 
 /* --- SOCIAL MEDIA ICONS --- */

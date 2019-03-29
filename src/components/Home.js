@@ -28,7 +28,8 @@ const Home = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                
+                <Row className="nameBanner text-center">
                     <Col>
                         <span className="homeName">brad mcCollum</span>
                     </Col>
