@@ -117,6 +117,8 @@ span.spacer {
   /* float: left; */
 }
 
+/* ---NAV BAR--- */
+
 .navBar {
   background: rgb(28, 24, 24);
 }
@@ -124,6 +126,12 @@ span.spacer {
 .navBar .nav-link {
   color: rgb(237, 234, 229) !important;
 }
+
+.activeLink {
+  border-bottom: 1px solid rgb(237, 234, 229);
+}
+
+/* --- SECTIONS --- */
 
 #home {
   background-color: rgb(28, 24, 24);
