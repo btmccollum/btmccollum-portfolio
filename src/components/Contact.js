@@ -15,25 +15,27 @@ class Contact extends Component {
             <section id="contact" ref={this.myRef}>
                     <Container fluid className="h-100">
                         <Row className="justify-content-center align-content-center h-100">
-                            <Col sm={3}>
+                            <Col md={3}>
+                                {/* section title, content removed at breakpoint */}
                                 <div className="contactBlock">
-                                    <h2 className="margin-b-0 sectionTitle">Contact</h2>
+                                    <h2 className="margin-b-0 sectionTitle contactTitle">Contact</h2>
                                 </div>
                             </Col>
                     
                             <Col sm={8}>
                                 <Row className="justify-content-center">
-                                    <Col md={3} xs={4} className="contactBlock">
+                                    {/* location info, content removed at breakpoint */}
+                                    <Col md={3} className="contactBlock location">
                                         <h5 className="headerTitle">Location</h5>
                                         <a>Fort Worth, Texas</a>
                                     </Col>
 
-                                    <Col md={5} xs={6} className="contactBlock">
+                                    <Col md={5} sm={6} xs={6} className="contactBlock">
                                         <h5 className="headerTitle">Email</h5>
-                                        <a href="mailto:#">bmccollum.swe@gmail.com</a>
+                                        <a href="mailto:bmccollum.swe@gmail.com">bmccollum.swe@gmail.com</a>
                                     </Col>
 
-                                    <Col md={4} xs={12} className="contactBlock">
+                                    <Col md={4} sm={6} xs={6} className="contactBlock">
                                         <h5 className="headerTitle">Social Media</h5>
 
                                         <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a>

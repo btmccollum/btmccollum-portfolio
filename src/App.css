@@ -160,6 +160,7 @@ span.spacer {
   height: 20vh;
   margin: 0 auto;
   overflow: hidden;
+  
   /* padding: 200px 0; */
 }
 
@@ -201,12 +202,39 @@ span.spacer {
   text-align: center;
 }
 
+.jumpToTop {
+  position: fixed;
+  bottom: 4;
+  z-index: 1;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 805px) {
+  #contact {
+    padding-top: 1%;
+    height: 15vh;
   }
-  to {
-    transform: rotate(360deg);
+
+  .contactTitle {
+    display: none;
   }
+
+  .location {
+    display: none;
+  }
+}
+
+@media (max-width: 576px)  {
+  #contact {
+    padding-top: 1%;
+    height: 15vh;
+  }
+
+  .contactTitle {
+    display: none;
+  }
+
+  .location {
+    display: none;
+  }
+
 }
