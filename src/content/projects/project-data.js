@@ -8,28 +8,28 @@ const projectData = {
         {
             title: 'Droplet for Reddit',
             image: droplet,
-            description: 'Customizable Reddit feeds leveraging the Reddit API',
+            description: 'Create your own customizable Reddit feed! Droplet leverages the Reddit API for familiar functionality. Create your own unique feed today!',
             repoLink: 'https://github.com/btmccollum/droplet-web',
             blogLink: 'http://btmccollum.com/droplet_for_reddit',
         },
         {
             title: 'Penda',
             image: penda,
-            description: 'Customizable Reddit feeds leveraging the Reddit API',
+            description: 'Time tracking for collobrative projects, adding another layer of transparency in the process. Can also be utilized for personal projects.',
             repoLink: 'https://github.com/btmccollum/droplet-web',
             blogLink: 'http://btmccollum.com/droplet_for_reddit',
         },
         {
             title: 'Foodie Finds',
             image: finds,
-            description: 'Customizable Reddit feeds leveraging the Reddit API',
+            description: 'A discussion board for foodies. Share, discover, or discuss unique culinary finds specific to your area, or join the discussion in states all over the US.',
             repoLink: 'https://github.com/btmccollum/droplet-web',
             blogLink: 'http://btmccollum.com/droplet_for_reddit',
         },
         {
             title: 'Brewery Search',
             image: brew,
-            description: 'Customizable Reddit feeds leveraging the Reddit API',
+            description: 'A Ruby CLI Gem that allows you to search for breweries in all 50 states directly from your command line!',
             repoLink: 'https://github.com/btmccollum/droplet-web',
             blogLink: 'http://btmccollum.com/droplet_for_reddit',
         }
