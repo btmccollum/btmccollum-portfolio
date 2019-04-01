@@ -173,10 +173,12 @@ span.spacer {
 }
 
 #projects {
+  display: flex;
   background-color: rgb(237, 234, 229);
   color: #333333;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0 auto;
+  padding-bottom: 2%;
   overflow: hidden;
   /* padding: 200px 0; */
 }
@@ -219,12 +221,27 @@ span.spacer {
 /* ---PROJECT CARDS--- */
 
 .card {
+  display: flex;
   -webkit-box-shadow: 0 6px 6px -6px black;
 	   -moz-box-shadow: 0 6px 6px -6px black;
-	        box-shadow: 0 6px 6px -6px black;
+          box-shadow: 0 6px 6px -6px black;
+  margin: 10px;
+  
+}
+
+.card-img-top {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;  
 }
 
 .card-body {
+  background: rgb(28, 24, 24);
+  color: rgb(237, 234, 229);
+  text-align: center;
+}
+
+.card-footer {
   background: rgb(28, 24, 24);
   color: rgb(237, 234, 229);
   text-align: center;

@@ -8,15 +8,17 @@ const Projects = props => {
     const projectList = props.projectData.projects.map(project => {
         return (
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={project.image} />
+                <Card.Img variant="top" className="img-fluid" src={project.image} />
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>
                         {project.description}
                     </Card.Text>
+                </Card.Body>
+                <Card.Footer>
                     <Button variant="link" href={project.blogLink} target="_blank" className="blogLink">Blog</Button>
                     <Button variant="link" href={project.repoLink} target="_blank" className="codeLink">Code</Button>
-                </Card.Body>
+                </Card.Footer>
             </Card>
         )
     })
@@ -26,7 +28,7 @@ const Projects = props => {
         <section id="projects">
             <Container className="h-100">
                 <h1 className="sectionTitle">Projects</h1>
-                <Row>
+                <Row className="justify-content-center">
                     {/* calling projectList const from above to create cards dynamically */}
                     {projectList}
                 </Row>
