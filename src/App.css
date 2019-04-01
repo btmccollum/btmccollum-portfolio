@@ -216,6 +216,30 @@ span.spacer {
   z-index: 1;
 }
 
+/* ---PROJECT CARDS--- */
+
+.card {
+  -webkit-box-shadow: 0 6px 6px -6px black;
+	   -moz-box-shadow: 0 6px 6px -6px black;
+	        box-shadow: 0 6px 6px -6px black;
+}
+
+.card-body {
+  background: rgb(28, 24, 24);
+  color: rgb(237, 234, 229);
+  text-align: center;
+}
+
+.blogLink {
+  float: left;
+}
+
+.codeLink {
+  float: right;
+}
+
+/* ---BREAK POINTS--- */
+
 @media (max-width: 805px) {
   #contact {
     padding-top: 1%;

@@ -1,37 +1,34 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import headshot from '../images/mccollum-headshot.jpg'
+import { Card, Button } from 'react-bootstrap';
 
-const Projects = () => {
+const Projects = props => {
+    // iterate through imported project collection object to create display cards
+    const projectList = props.projectData.projects.map(project => {
+        return (
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={project.image} />
+                <Card.Body>
+                    <Card.Title>{project.title}</Card.Title>
+                    <Card.Text>
+                        {project.description}
+                    </Card.Text>
+                    <Button variant="link" href={project.blogLink} target="_blank" className="blogLink">Blog</Button>
+                    <Button variant="link" href={project.repoLink} target="_blank" className="codeLink">Code</Button>
+                </Card.Body>
+            </Card>
+        )
+    })
 
+    // creating display for projects section on main page
     return (
         <section id="projects">
             <Container className="h-100">
                 <h1 className="sectionTitle">Projects</h1>
                 <Row>
-                    <Col md={4}>
-                        <div className="projectBox">
-                            <header>Droplet for Reddit</header>
-                            Test
-                            <footer>React</footer>
-                        </div>
-                    </Col>
-
-                    <Col md={4}>
-                        <div className="projectBox">
-                            <header>Droplet for Reddit</header>
-                            Test
-                            <footer>React</footer>
-                        </div>
-                    </Col>
-
-                    <Col md={4}>
-                        <div className="projectBox">
-                            <header>Droplet for Reddit</header>
-                            Test
-                            <footer>React</footer>
-                        </div>
-                    </Col>
+                    {/* calling projectList const from above to create cards dynamically */}
+                    {projectList}
                 </Row>
             </Container>
         </section>
