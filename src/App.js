@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import ScrollUpButton from "react-scroll-up-button";
+import blogData from './blog/blog-content';
 
 import './App.css';
 
@@ -22,7 +23,7 @@ class App extends Component {
         <Home />
         <About />
         <Projects />
-        <Blog />
+        {/* <Blog blogData={blogData} /> */}
         <Contact />
         <ScrollUpButton />
       </div>

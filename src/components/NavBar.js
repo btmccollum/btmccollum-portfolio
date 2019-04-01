@@ -27,7 +27,7 @@ const NavBar = () => {
                         className="nav-link navLink"
                     >Projects</Link>
                     
-                    <Link 
+                    {/* <Link 
                         to="blog" 
                         // activeClass="activeLink"
                         spy={true}
@@ -35,7 +35,7 @@ const NavBar = () => {
                         offset={-70}
                         duration= {500}
                         className="nav-link navLink"
-                    >Blog</Link>
+                    >Blog</Link> */}
 
                     <Link 
                         to="contact" 
