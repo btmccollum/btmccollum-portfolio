@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import ScrollUpButton from "react-scroll-up-button";
-import blogData from './blog/blog-content';
+// import blogData from './blog/blog-content';
 import projectData from './content/projects/project-data';
 
 import './App.css';
