@@ -6,6 +6,13 @@ import { Card, Button } from 'react-bootstrap';
 const Projects = props => {
     // iterate through imported project collection object to create display cards
     const projectList = props.projectData.projects.map(project => {
+        let herokuLink
+
+        // check if JSON object includes a heroku deployment link and return button if so
+        if (!!project.herokuLink) { 
+            herokuLink = <Button variant="link" href={project.herokuLink} target="_blank" className="herokuLink">Heroku</Button>
+        }
+
         return (
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" className="img-fluid" src={project.image} />
@@ -17,6 +24,7 @@ const Projects = props => {
                 </Card.Body>
                 <Card.Footer>
                     <Button variant="link" href={project.blogLink} target="_blank" className="blogLink">Blog</Button>
+                    {herokuLink}
                     <Button variant="link" href={project.repoLink} target="_blank" className="codeLink">Code</Button>
                 </Card.Footer>
             </Card>
