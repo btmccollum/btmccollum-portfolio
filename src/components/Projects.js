@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import headshot from '../images/mccollum-headshot.jpg'
 import { Card, Button } from 'react-bootstrap';
 import cuid from 'cuid';
+import { format } from 'util';
 
 const Projects = props => {
     // iterate through imported project collection object to create display cards
@@ -15,12 +16,16 @@ const Projects = props => {
         }
 
         return (
-            <Card style={{ width: '18rem' }} key={cuid()}>
+            <Card style={{ width: '16rem' }} key={cuid()}>
                 <Card.Img variant="top" className="img-fluid" src={project.image} />
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>
                         {project.description}
+                    </Card.Text>
+
+                    <Card.Text className="languages">
+                        Created with: {project.languages.join(" + ")}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -37,6 +42,7 @@ const Projects = props => {
         <section id="projects">
             <Container className="h-100">
                 <h1 className="sectionTitle">Projects</h1>
+                <h3>Check out what I've been working on lately:</h3>
                 <Row className="justify-content-center">
                     {/* calling projectList const from above to create cards dynamically */}
                     {projectList}

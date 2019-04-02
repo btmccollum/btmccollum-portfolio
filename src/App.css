@@ -5,6 +5,7 @@
 /* *::before::after {
   box-sizing: border-box;
 } */
+
 .page-content.entry-content pre {
   white-space: normal !important;
   }
@@ -25,6 +26,76 @@ span.homeName {
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Berkshire Swash', cursive;
   font-size: 5vh;
+}
+
+/*  --- MAIN CONTAINER AND SAFARI SPECIFIC QUERIES --- */
+
+.content{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
+  width: 75%;
+}
+
+/* account for safari stretching of row */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+    @media {
+      .safari6 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column nowrap;
+        width: 50%;
+    }
+}
+}
+
+/* account for safari stretching of row */
+@media not all and (min-resolution:.001dpcm) { 
+  @media {
+      .safari10 { 
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column nowrap;
+        width: 50%;
+      }
+  }
+}
+
+.row:before, 
+.row:after {
+  display: none !important;
+}
+
+/* ---HOME SECTION GRAPHIC--- */
+
+.headshotCol {
+  padding-right: 0px;
+}
+
+.headshot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.me {
+  border: 2px solid rgb(237, 234, 229);
+  border-radius: 50%;
+  /* height: 10em; */
+  height: 100%;
+  /* max-height: 200px; */
+  width: 100%;
+  /* max-width: 180px; */
+  
+  /* float: left; */
 }
 
 /* --- SOCIAL MEDIA ICONS --- */
@@ -89,86 +160,6 @@ span.spacer {
   color: rgb(237, 234, 229);
 }
 
-/*  --- OPTIONS --- */
-
-.content{
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-flow: column wrap;
-  -webkit-flex-flow: column wrap;
-  width: 75%;
-}
-
-/* account for safari stretching of row */
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
-    @media {
-      .safari6 {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: column nowrap;
-        width: 50%;
-    }
-}
-}
-
-/* account for safari stretching of row */
-@media not all and (min-resolution:.001dpcm) { 
-  @media {
-      .safari10 { 
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: column nowrap;
-        width: 50%;
-      }
-  }
-}
-
-.row:before, 
-.row:after {
-  display: none !important;
-}
-
-.contentRow{
-  /* display: inline-flex; */
-  /* width: rem; */
-}
-
-.content .row{
-  /* width: 75%; */
-}
-
-.options {
-  clear: both;
-}
-.headshotCol {
-  padding-right: 0px;
-}
-
-.headshot {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.me {
-  border: 2px solid rgb(237, 234, 229);
-  border-radius: 50%;
-  /* height: 10em; */
-  height: 100%;
-  /* max-height: 200px; */
-  width: 100%;
-  /* max-width: 180px; */
-  
-  /* float: left; */
-}
-
 /* ---NAV BAR--- */
 
 .navBar {
@@ -183,7 +174,7 @@ span.spacer {
   border-bottom: 1px solid rgb(237, 234, 229);
 }
 
-/* --- SECTIONS --- */
+/* --- PAGE SECTIONS --- */
 
 #home {
   background-color: rgb(248, 112, 87);
@@ -295,27 +286,38 @@ span.spacer {
   -webkit-box-shadow: 0 6px 6px -6px black;
 	   -moz-box-shadow: 0 6px 6px -6px black;
           box-shadow: 0 6px 6px -6px black;
-  margin: 10px;
-  
+  margin: 10px;  
 }
 
 .card-img-top {
   height: 100%;
-  max-height: 45%;
+  min-height: 40%;
+  max-height: 40%;
   max-width: 100%;
   object-fit: cover;  
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .card-body {
   background: rgb(83, 88, 95);
   color: rgb(237, 234, 229);
   text-align: center;
+  font-size: .8rem;
+}
+
+.card .languages{
+  font-weight: bold;
 }
 
 .card-footer {
   background: rgb(83, 88, 95);
   color: rgb(237, 234, 229);
   text-align: center;
+  border-top: 0;
 }
 
 .blogLink {
@@ -324,6 +326,11 @@ span.spacer {
 
 .codeLink {
   float: right;
+}
+
+.aboutIcons svg {
+  /* margin: 5px; */
+  margin: 1%;
 }
 
 /* ---BREAK POINTS--- */
