@@ -172,7 +172,7 @@ span.spacer {
 /* ---NAV BAR--- */
 
 .navBar {
-  background: rgb(28, 24, 24);
+  background: rgb(248, 112, 87);
 }
 
 .navBar .nav-link {
@@ -186,9 +186,9 @@ span.spacer {
 /* --- SECTIONS --- */
 
 #home {
-  background-color: rgb(28, 24, 24);
+  background-color: rgb(248, 112, 87);
   /* display: flex; */
-  color: #333333;
+  color: rgb(83, 88, 95);
   height: 100vh;
   margin: 0 auto;
   overflow: hidden;
@@ -201,7 +201,7 @@ span.spacer {
   display: -ms-flexbox;
   display: flex;
   background-color: rgb(237, 234, 229);
-  color: #333333;
+  color: rgb(83, 88, 95);
   min-height: 100vh;
   margin: 0 auto;
   padding-top: 5%;
@@ -215,7 +215,7 @@ span.spacer {
   display: -ms-flexbox;
   display: flex;
   background-color: rgb(237, 234, 229);
-  color: #333333;
+  color: rgb(83, 88, 95);
   min-height: 100vh;
   margin: 0 auto;
   /* overflow: hidden; */
@@ -227,7 +227,7 @@ span.spacer {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgb(28, 24, 24);
+  background-color: rgb(248, 112, 87);
   color: rgb(237, 234, 229);
   height: 20vh;
   margin: 0 auto;
@@ -242,7 +242,7 @@ span.spacer {
   display: -ms-flexbox;
   display: flex;
   background-color: rgb(237, 234, 229);
-  color: #333333;
+  color: rgb(83, 88, 95);
   /* height: 100vh; */
   margin: 0 auto;
   padding-bottom: 2%;
@@ -266,7 +266,7 @@ span.spacer {
 /* --- PROJECTS --- */
 
 .projectBox {
-  background: rgb(28, 24, 24);
+  background: rgb(83, 88, 95);
   color: rgb(237, 234, 229);
   border: 1px solid black;
   border-radius: 3.5px;
@@ -307,13 +307,13 @@ span.spacer {
 }
 
 .card-body {
-  background: rgb(28, 24, 24);
+  background: rgb(83, 88, 95);
   color: rgb(237, 234, 229);
   text-align: center;
 }
 
 .card-footer {
-  background: rgb(28, 24, 24);
+  background: rgb(83, 88, 95);
   color: rgb(237, 234, 229);
   text-align: center;
 }
