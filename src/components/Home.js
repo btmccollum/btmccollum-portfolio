@@ -8,9 +8,9 @@ const Home = () => {
 
     return (
         <section id="home">
-            <Container className="content h-100 align-content-center justify-content-center">
+            <Container className="content h-100 align-content-center justify-content-center safari6 safari10">
                 {/* <h1>Brad McCollum</h1> */}
-                <Row className="contentRow align-content-center">
+                <Row>
                     <Col xs={4} className="headshotCol">
                         <div className="headshot h-100">
                             <img src={headshot} alt="my headshot" className="me img-fluid" /> 

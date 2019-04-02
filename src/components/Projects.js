@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import headshot from '../images/mccollum-headshot.jpg'
 import { Card, Button } from 'react-bootstrap';
+import cuid from 'cuid';
 
 const Projects = props => {
     // iterate through imported project collection object to create display cards
@@ -14,7 +15,7 @@ const Projects = props => {
         }
 
         return (
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} key={cuid()}>
                 <Card.Img variant="top" className="img-fluid" src={project.image} />
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>

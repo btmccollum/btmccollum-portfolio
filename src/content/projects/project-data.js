@@ -41,7 +41,7 @@ const projectData = {
             repoLink: 'https://github.com/btmccollum/brewery_search',
             blogLink: 'http://btmccollum.com/brewery_search_cli_-_ruby_gem',
             demoLink: ''
-        }
+        },
     ]
 }
 
