@@ -23,9 +23,8 @@
 
 span.homeName {
   color: rgb(237, 234, 229);
-  /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Berkshire Swash', cursive;
-  font-size: 5vh;
+  font-size: 2rem;
 }
 
 /*  --- MAIN CONTAINER AND SAFARI SPECIFIC QUERIES --- */
@@ -333,12 +332,16 @@ span.spacer {
   margin: 1%;
 }
 
+.miniEmail {
+    display: none;
+}
+
 /* ---BREAK POINTS--- */
 
 @media (max-width: 805px) {
   #contact {
     padding-top: 1%;
-    height: 15vh;
+    min-height: 15vh;
   }
 
   .contactTitle {
@@ -353,7 +356,7 @@ span.spacer {
 @media (max-width: 576px)  {
   #contact {
     padding-top: 1%;
-    height: 15vh;
+    min-height: 15vh;
   }
 
   .contactTitle {
@@ -362,6 +365,37 @@ span.spacer {
 
   .location {
     display: none;
+  }
+
+}
+
+@media (max-width: 400px)  {
+  #contact {
+    padding-top: 1%;
+    min-height: 15vh;
+  }
+
+  .contactBlock {
+    padding: 0%;
+  }
+
+  .contactTitle {
+    display: none;
+  }
+
+  .location {
+    display: none;
+  }
+
+  .normalEmail {
+    display: none;
+  }
+  .miniEmail {
+    display: block;
+  }
+
+  .socialBlock {
+    padding-right: 5%;
   }
 
 }

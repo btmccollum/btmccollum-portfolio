@@ -24,10 +24,13 @@ const Contact = () => {
 
                                 <Col md={5} sm={6} xs={6} className="contactBlock">
                                     <h5 className="headerTitle">Email</h5>
-                                    <a href="mailto:bmccollum.swe@gmail.com">bmccollum.swe@gmail.com</a>
+                                    <a className="normalEmail" href="mailto:bmccollum.swe@gmail.com">bmccollum.swe@gmail.com</a>
+
+                                    {/* displayed only as smallest media queries */}
+                                    <a className="miniEmail" href="mailto:bmccollum.swe@gmail.com"><FontAwesomeIcon icon="envelope-square" size="3x" /></a>
                                 </Col>
 
-                                <Col md={4} sm={6} xs={6} className="contactBlock">
+                                <Col md={4} sm={6} xs={6} className="contactBlock socialBlock">
                                     <h5 className="headerTitle">Social Media</h5>
 
                                     <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a>
