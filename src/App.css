@@ -353,6 +353,12 @@ span.spacer {
   }
 }
 
+@media (max-width: 767px) {
+  .projectCard {
+    width: 17rem !important;
+  }
+}
+
 @media (max-width: 576px)  {
   #contact {
     padding-top: 1%;
