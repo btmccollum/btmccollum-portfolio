@@ -1,9 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import headshot from '../images/mccollum-headshot.jpg'
+import { Container, Row } from 'react-bootstrap';
 import { Card, Button } from 'react-bootstrap';
 import cuid from 'cuid';
-import { format } from 'util';
 
 const Projects = props => {
     // iterate through imported project collection object to create display cards

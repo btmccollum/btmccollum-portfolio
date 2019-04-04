@@ -1,6 +1,5 @@
 import React from 'react';
 import headshot from '../images/mccollum-headshot.jpg'
-import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -9,7 +8,6 @@ const Home = () => {
     return (
         <section id="home">
             <Container className="content h-100 align-content-center justify-content-center safari6 safari10">
-                {/* <h1>Brad McCollum</h1> */}
                 <Row>
                     <Col xs={4} className="headshotCol">
                         <div className="headshot h-100">
