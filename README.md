@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Brad McCollum](http://www.btmccollum.com)
 
 Hello! My name is Brad McCollum and I'm a full-stack web developer located in Fort Worth, Texas.
@@ -9,3 +10,6 @@ Currently, I'm pursing a passion for code and looking to transition that into a 
 ---
 
 © 2019 Brad McCollum
+=======
+Personal portfolio site for Brad McCollum: [www.btmccollum.com](http://www.btmccollum.com)
+>>>>>>> fd6fb7dc2feb249157e37b665bb8ee7a520cd790
