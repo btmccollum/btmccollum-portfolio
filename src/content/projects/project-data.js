@@ -13,7 +13,7 @@ const projectData = {
             icons: ['devicon-ruby-plain', 'devicon-rails-plain', 'devicon-react-original-wordmark'],
             repoLink: 'https://github.com/btmccollum/droplet-web',
             herokuLink: 'https://droplet-app.herokuapp.com/',
-            blogLink: 'http://btmccollum.com/droplet_for_reddit',
+            blogLink: 'https://medium.com/@btmccollum/personal-project-droplet-for-reddit-2728470dc418',
             demoLink: ''
         },
         {
@@ -23,7 +23,7 @@ const projectData = {
             languages: ['Ruby/Rails', 'JavaScript', 'jQuery'],
             icons: ['devicon-ruby-plain', 'devicon-rails-plain', 'devicon-javascript-plain', 'devicon-jquery-plain'],
             repoLink: 'https://github.com/btmccollum/penda-app',
-            blogLink: 'http://btmccollum.com/penda_js-ified',
+            blogLink: 'https://medium.com/@btmccollum/personal-project-penda-js-ified-f51514dde938',
             demoLink: ''
         },
         {
@@ -33,7 +33,7 @@ const projectData = {
             languages: ['Ruby', 'Sinatra'],
             icons: ['devicon-ruby-plain'],
             repoLink: 'https://github.com/btmccollum/foodie-finds-sinatra',
-            blogLink: 'http://btmccollum.com/foodie_finds',
+            blogLink: 'https://medium.com/@btmccollum/foodie-finds-b5fbbc61e5be',
             demoLink: ''
         },
         {
@@ -43,7 +43,7 @@ const projectData = {
             languages: ['Ruby'],
             icons: ['devicon-ruby-plain'],
             repoLink: 'https://github.com/btmccollum/brewery_search',
-            blogLink: 'http://btmccollum.com/brewery_search_cli_-_ruby_gem',
+            blogLink: 'https://medium.com/@btmccollum/creating-a-ruby-cli-gem-b0f73c84f9b3',
             demoLink: ''
         },
     ]

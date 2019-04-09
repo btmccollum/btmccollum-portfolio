@@ -26,16 +26,6 @@ const NavBar = () => {
                         duration= {500} 
                         className="nav-link navLink"
                     >Projects</Link>
-                    
-                    {/* <Link 
-                        to="blog" 
-                        // activeClass="activeLink"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration= {500}
-                        className="nav-link navLink"
-                    >Blog</Link> */}
 
                     <Link 
                         to="contact" 
@@ -46,6 +36,8 @@ const NavBar = () => {
                         duration= {500}
                         className="nav-link navLink"
                     >Contact</Link>
+
+                    <Nav.Link href="https://medium.com/@btmccollum" target="_blank" className="navLink">Blog</Nav.Link>
 
                     <Nav.Link href="https://drive.google.com/file/d/1eIQ29w5FlFz4-Z6HA4_T1Yq3-oVuNOyq/view?usp=sharing" target="_blank" className="navLink">Résumé</Nav.Link>
                 </Nav>
