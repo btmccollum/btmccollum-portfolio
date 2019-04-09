@@ -22,6 +22,8 @@ const Home = () => {
                             <span className="divider"></span>
                             <a href="https://www.linkedin.com/in/btmccollum/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" /></a>
                             <span className="divider"></span>
+                            <a href="https://www.medium.com/@btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "medium"]} size="3x" className="medIcon" /></a>
+                            <span className="divider"></span>
                             <a href="https://www.twitter.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
                         </div>
                     </Col>
