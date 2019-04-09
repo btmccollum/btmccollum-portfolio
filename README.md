@@ -1,1 +1,1 @@
-Personal portfolio site for Brad McCollum: [www.btmccollum.com](www.btmccollum.com)
+Personal portfolio site for Brad McCollum: [www.btmccollum.com](http://www.btmccollum.com)
