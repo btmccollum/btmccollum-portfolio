@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # [Brad McCollum](http://www.btmccollum.com)
 
 Hello! My name is Brad McCollum and I'm a full-stack web developer located in Fort Worth, Texas.
@@ -7,9 +6,8 @@ I'm comfortable throughout the full stack, but lately I've been passionate about
 
 Currently, I'm pursing a passion for code and looking to transition that into a long and fulfilling career. I've spent the last seven years working in financial services at one of the largest online brokers, most recently serving as a team manager in the backoffice. I graduated from the University of Oklahoma with a degree in Mandarin Language/Literature/Linguistics. 
 
+This page was created from scratch with React.
+
 ---
 
 © 2019 Brad McCollum
-=======
-Personal portfolio site for Brad McCollum: [www.btmccollum.com](http://www.btmccollum.com)
->>>>>>> fd6fb7dc2feb249157e37b665bb8ee7a520cd790
