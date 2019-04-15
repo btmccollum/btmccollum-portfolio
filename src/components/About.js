@@ -16,7 +16,7 @@ const About = () => {
 
                         
                         <Row className="aboutIcons justify-content-center">
-                            <IconContext.Provider value={{ color: "rgb(248, 112, 87)", className: "aboutIcons", size: "2em" }}>
+                            <IconContext.Provider value={{ color: "rgb(248, 112, 87)", className: "aboutIcons", size: "3em" }}>
                                 <DiRubyRough value= {{size: 'em'}} /> <DiRor /> <DiJsBadge /> <DiReact /> <DiJqueryLogo /> <DiHtml5 /> <DiCss3 />
                             </IconContext.Provider>
                         </Row>

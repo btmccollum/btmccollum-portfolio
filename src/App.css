@@ -2,16 +2,16 @@
   height: 100vh;
 }
 
-/* *::before::after {
-  box-sizing: border-box;
-} */
-
 .page-content.entry-content pre {
   white-space: normal !important;
   }
 
 .clear { 
   clear: both; 
+}
+
+.nav-link { 
+  cursor: pointer !important; 
 }
 
 /* --- HOME --- */
@@ -222,7 +222,6 @@ span.spacer {
   height: 20vh;
   margin: 0 auto;
   /* overflow: hidden; */
-  
   /* padding: 200px 0; */
 }
 
@@ -233,7 +232,7 @@ span.spacer {
   display: flex;
   background-color: rgb(237, 234, 229);
   color: rgb(83, 88, 95);
-  /* height: 100vh; */
+  min-height: 100vh;
   margin: 0 auto;
   padding-bottom: 2%;
   /* overflow: hidden; */
@@ -334,6 +333,26 @@ span.spacer {
 
 .miniEmail {
     display: none;
+}
+
+.card-footer, a:link {
+  color: rgb(237, 234, 229) !important; 
+}
+
+.card-footer, a:visited{
+  color: rgb(237, 234, 229) !important; 
+}
+
+.card-footer, a:hover{
+  color: rgb(237, 234, 229) !important; 
+}
+
+.card-footer, a:focus{
+  color: rgb(237, 234, 229) !important; 
+}
+
+.card-footer, a:active{
+  color: rgb(237, 234, 229) !important; 
 }
 
 /* ---BREAK POINTS--- */
