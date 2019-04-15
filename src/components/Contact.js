@@ -36,8 +36,8 @@ const Contact = () => {
                                     <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a>
                                     <span className="spacer"></span>
                                     <a href="https://www.linkedin.com/in/btmccollum/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" /></a>
-                                    <span className="spacer"></span>
-                                    <a href="https://www.medium.com/@btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "medium"]} size="3x" className="faMedium" /></a>
+                                    {/* <span className="spacer"></span> */}
+                                    {/* <a href="https://www.medium.com/@btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "medium"]} size="3x" className="faMedium" /></a> */}
                                     <span className="spacer"></span>
                                     <a href="https://www.twitter.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
                                 </Col>

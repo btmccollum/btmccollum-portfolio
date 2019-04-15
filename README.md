@@ -1,4 +1,4 @@
-# [Brad McCollum](http://www.btmccollum.com)
+# [Brad McCollum](https://www.btmccollum.com)
 
 Hello! My name is Brad McCollum and I'm a full-stack web developer located in Fort Worth, Texas.
 

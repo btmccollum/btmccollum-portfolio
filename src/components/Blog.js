@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-// import content from '../blog/blog-content';
 
 const Blog = props => {
     debugger;
