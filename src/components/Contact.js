@@ -19,7 +19,7 @@ const Contact = () => {
                                 {/* location info, content removed at breakpoint */}
                                 <Col md={3} className="contactBlock location">
                                     <h5 className="headerTitle">Location</h5>
-                                    <a>Fort Worth, Texas</a>
+                                    Fort Worth, Texas
                                 </Col>
 
                                 <Col md={5} sm={6} xs={6} className="contactBlock">
@@ -33,13 +33,13 @@ const Contact = () => {
                                 <Col md={4} sm={6} xs={6} className="contactBlock socialBlock">
                                     <h5 className="headerTitle">Social Media</h5>
 
-                                    <a href="https://www.github.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a>
+                                    <a href="https://www.github.com/btmccollum" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={["fab", "github-square"]} size="3x" /></a>
                                     <span className="spacer"></span>
-                                    <a href="https://www.linkedin.com/in/btmccollum/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" /></a>
+                                    <a href="https://www.linkedin.com/in/btmccollum/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" /></a>
                                     {/* <span className="spacer"></span> */}
                                     {/* <a href="https://www.medium.com/@btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "medium"]} size="3x" className="faMedium" /></a> */}
                                     <span className="spacer"></span>
-                                    <a href="https://www.twitter.com/btmccollum" target="_blank"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
+                                    <a href="https://www.twitter.com/btmccollum" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={["fab", "twitter-square"]} size="3x" /></a>
                                 </Col>
                             </Row>
                         </Col>

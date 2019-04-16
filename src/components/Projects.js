@@ -15,7 +15,7 @@ const Projects = props => {
 
         return (
             <Card className="projectCard" style={{ width: '16rem' }} key={cuid()}>
-                <Card.Img variant="top" className="img-fluid" src={project.image} />
+                <Card.Img variant="top" className="img-fluid" src={project.image} alt="random image representing project"/>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>
