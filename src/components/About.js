@@ -13,10 +13,9 @@ const About = () => {
                 <Row>
                     <Col>
                         <h3>Hi! I'm Brad McCollum, a full-stack web developer with a passion for creating. </h3>
-
                         
                         <Row className="aboutIcons justify-content-center">
-                            <IconContext.Provider value={{ color: "rgb(248, 112, 87)", className: "aboutIcons", size: "3em" }}>
+                            <IconContext.Provider value={{ color: "rgb(248, 112, 87)", className: "aboutIcon", size: "3.5em" }}>
                                 <DiRubyRough value= {{size: 'em'}} /> <DiRor /> <DiJsBadge /> <DiReact /> <DiJqueryLogo /> <DiHtml5 /> <DiCss3 />
                             </IconContext.Provider>
                         </Row>

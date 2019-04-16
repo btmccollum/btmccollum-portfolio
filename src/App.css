@@ -24,7 +24,7 @@
 span.homeName {
   color: rgb(237, 234, 229);
   font-family: 'Berkshire Swash', cursive;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /*  --- MAIN CONTAINER AND SAFARI SPECIFIC QUERIES --- */
@@ -163,6 +163,7 @@ span.spacer {
 
 .navBar {
   background: rgb(248, 112, 87);
+  font-size: 1.25rem;
 }
 
 .navBar .nav-link {
@@ -370,6 +371,10 @@ span.spacer {
   .location {
     display: none;
   }
+/* 
+  .contactBlock {
+    flex: 0 0 50%;
+  } */
 }
 
 @media (max-width: 767px) {
@@ -395,8 +400,17 @@ span.spacer {
 }
 
 @media (max-width: 415px) {
+  .navBar {
+    font-size: 1.2rem;
+  }
+
   .content {
     width: 90%;
+  }
+
+  #about .aboutIcon {
+    height: 2em;
+    width: 2em;
   }
 }
 
