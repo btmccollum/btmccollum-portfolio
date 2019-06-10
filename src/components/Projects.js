@@ -6,11 +6,15 @@ import cuid from 'cuid';
 const Projects = props => {
     // iterate through imported project collection object to create display cards
     const projectList = props.projectData.projects.map(project => {
-        let herokuLink
+        let herokuLink, blogLink
 
         // check if JSON object includes a heroku deployment link and return button if so
         if (!!project.herokuLink) { 
             herokuLink = <Button variant="link" href={project.herokuLink} target="_blank" className="herokuLink">Heroku</Button>
+        }
+
+        if (!!project.blogLink) {
+            blogLink = <Button variant="link" href={project.blogLink} target="_blank" className="blogLink">Blog</Button>
         }
 
         return (
@@ -27,7 +31,8 @@ const Projects = props => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <Button variant="link" href={project.blogLink} target="_blank" className="blogLink">Blog</Button>
+                    {/* <Button variant="link" href={project.blogLink} target="_blank" className="blogLink">Blog</Button> */}
+                    {blogLink}
                     {herokuLink}
                     <Button variant="link" href={project.repoLink} target="_blank" className="codeLink">Code</Button>
                 </Card.Footer>
@@ -40,7 +45,7 @@ const Projects = props => {
         <section id="projects">
             <Container className="h-100">
                 <h1 className="sectionTitle">Projects</h1>
-                <h3>Check out what I've been working on lately:</h3>
+                <h3>Check out some projects I've been working on lately:</h3>
                 <Row className="justify-content-center">
                     {/* calling projectList const from above to create cards dynamically */}
                     {projectList}

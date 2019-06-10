@@ -39,7 +39,7 @@ const NavBar = () => {
 
                     <Nav.Link href="https://medium.com/@btmccollum" target="_blank" className="navLink" rel="noopener noreferrer">Blog</Nav.Link>
 
-                    <Nav.Link href="https://drive.google.com/file/d/1eIQ29w5FlFz4-Z6HA4_T1Yq3-oVuNOyq/view?usp=sharing" target="_blank" className="navLink" rel="noopener noreferrer">Résumé</Nav.Link>
+                    <Nav.Link href="https://drive.google.com/file/d/1Ak7nxQeHiutgkja66ZMRGqARRsqGQYUr/view?usp=sharing" target="_blank" className="navLink" rel="noopener noreferrer">Résumé</Nav.Link>
                 </Nav>
             </Navbar>
         </Container>
