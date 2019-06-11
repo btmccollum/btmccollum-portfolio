@@ -4,6 +4,7 @@ import finds from '../../images/food-3020282_960_720.jpg'
 import brew from '../../images/27000141259_6605496417_b.jpg'
 import ohdoc from '../../images/100doc.jpg'
 
+// only displaying the 4 most relevant projects for card display
 const projectData = {
     projects: [
         {

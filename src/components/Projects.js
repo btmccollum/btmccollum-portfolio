@@ -31,7 +31,6 @@ const Projects = props => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    {/* <Button variant="link" href={project.blogLink} target="_blank" className="blogLink">Blog</Button> */}
                     {blogLink}
                     {herokuLink}
                     <Button variant="link" href={project.repoLink} target="_blank" className="codeLink">Code</Button>
