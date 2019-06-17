@@ -263,7 +263,7 @@ span.spacer {
 
 /* ---PROJECT CARDS--- */
 
-.projectCard {
+.projectCard * {
   transform: scale(1.01);
 }
 
