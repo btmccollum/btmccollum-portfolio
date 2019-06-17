@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
-import { Card, Button } from 'react-bootstrap';
+import { Container, Row, Card, Button, Col } from 'react-bootstrap';
 import cuid from 'cuid';
 
 const Projects = props => {
@@ -10,7 +9,7 @@ const Projects = props => {
 
         // check if JSON object includes a heroku deployment link and return button if so
         if (!!project.herokuLink) { 
-            herokuLink = <Button variant="link" href={project.herokuLink} target="_blank" className="herokuLink">Heroku</Button>
+            herokuLink = <Button className="herokuLink" variant="link" href={project.herokuLink} target="_blank" className="herokuLink">Heroku</Button>
         }
 
         if (!!project.blogLink) {
@@ -18,7 +17,7 @@ const Projects = props => {
         }
 
         return (
-            <Card className="projectCard" style={{ width: '16rem' }} key={cuid()}>
+            <Card className="projectCard" style={{ width: '20rem' }} key={cuid()}>
                 <Card.Img variant="top" className="img-fluid" src={project.image} alt="random image representing project"/>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
@@ -27,12 +26,11 @@ const Projects = props => {
                     </Card.Text>
 
                     <Card.Text className="languages">
-                        Created with: {project.languages.join(" + ")}
+                        Created with: {project.languages.join(", ")}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    {/* <Button variant="link" href={project.blogLink} target="_blank" className="blogLink">Blog</Button> */}
-                    {blogLink}
+                    {/* need to conditionally render depending on whether or not it has a heroku link */}
                     {herokuLink}
                     <Button variant="link" href={project.repoLink} target="_blank" className="codeLink">Code</Button>
                 </Card.Footer>
@@ -46,7 +44,7 @@ const Projects = props => {
             <Container className="h-100">
                 <h1 className="sectionTitle">Projects</h1>
                 <h3>Check out some projects I've been working on lately:</h3>
-                <Row className="justify-content-center">
+                <Row className="justify-content-center projectsRow">
                     {/* calling projectList const from above to create cards dynamically */}
                     {projectList}
                 </Row>
