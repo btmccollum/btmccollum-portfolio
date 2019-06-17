@@ -1,11 +1,11 @@
-import React from 'react';
-import { Container, Row } from 'react-bootstrap';
-import { Card, Button } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Container, Row, Card, Button, Col } from 'react-bootstrap';
 import cuid from 'cuid';
+import ProjectCard from './ProjectCard'
 
 const Projects = props => {
-    // iterate through imported project collection object to create display cards
     const projectList = props.projectData.projects.map(project => {
+<<<<<<< HEAD
         let herokuLink, blogLink
 
         // check if JSON object includes a heroku deployment link and return button if so
@@ -37,6 +37,9 @@ const Projects = props => {
                 </Card.Footer>
             </Card>
         )
+=======
+        return <ProjectCard projectData={project}  key={cuid()}/>
+>>>>>>> development
     })
 
     // creating display for projects section on main page
@@ -45,8 +48,7 @@ const Projects = props => {
             <Container className="h-100">
                 <h1 className="sectionTitle">Projects</h1>
                 <h3>Check out some projects I've been working on lately:</h3>
-                <Row className="justify-content-center">
-                    {/* calling projectList const from above to create cards dynamically */}
+                <Row className="justify-content-center projectsRow">
                     {projectList}
                 </Row>
             </Container>
