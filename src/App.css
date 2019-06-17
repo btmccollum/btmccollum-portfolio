@@ -263,6 +263,10 @@ span.spacer {
 
 /* ---PROJECT CARDS--- */
 
+.projectCard {
+  transform: scale(1.01);
+}
+
 .card {
   display: -webkit-box;
   display: -webkit-flex;
@@ -301,7 +305,7 @@ span.spacer {
   background: rgb(45, 47, 49);
   color: rgb(237, 234, 229);
   text-align: center;
-  border-top: 0;
+  border-top: 0 !important;
 }
 
 .herokuLink {
@@ -358,7 +362,7 @@ span.spacer {
 }
 
 @media (max-width: 767px) {
-  .projectCard {
+  .card {
     width: 17rem !important;
   }
 }
