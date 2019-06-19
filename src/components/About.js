@@ -12,7 +12,7 @@ const About = () => {
                 
                 <Row>
                     <Col>
-                        <h3>Hi! I'm Brad McCollum, a full-stack web developer with a passion for creating. </h3>
+                        <h3>Hi! I'm Brad McCollum, a software engineer with a passion for creating. </h3>
                         
                         <Row className="aboutIcons justify-content-center">
                             <IconContext.Provider value={{ color: "rgb(248, 112, 87)", className: "aboutIcon", size: "3.5em" }}>
@@ -21,7 +21,7 @@ const About = () => {
                         </Row>
                         <br />
 
-                        <p>I am currently pursuing a dream to make a transition in to web development. I've spent the last seven years as a results-oriented and highly driven manager in the financial services field. Experienced in both the back and middle office dealing with all aspects of retail client account opening/maintenance, associate development, and regulatory initiatives.</p>
+                        <p>I am currently pursuing a dream to make a transition to software development. I've spent the last seven years as a results-oriented and highly driven manager in the financial services field. Experienced in both the back and middle office dealing with all aspects of retail client account opening/maintenance, associate development, and regulatory initiatives.</p>
 
                         <p>Programming has always been of great interest to me, especially since technologies are constantly advancing and provide great opportunities for life-long learning. My exposure started with some introductory classes to C++ at a young age that really ignited the spark and continued up through college while dabbling in HTML, CSS, and JavaScript on the side. Creative outlets have always been of great importance to me and many of them remain important hobbies to this day such as cooking, drawing, guitar, and even the decision to pursue learning Mandarin Chinese in college and spending a year in Beijing. </p>
 

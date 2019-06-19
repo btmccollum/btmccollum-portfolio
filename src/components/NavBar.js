@@ -9,7 +9,6 @@ const NavBar = () => {
                 <Nav>
                     <Link 
                         to="about"
-                        // activeClass="activeLink"
                         className="nav-link navLink"
                         spy={true}
                         smooth={true}
@@ -19,7 +18,6 @@ const NavBar = () => {
                    
                     <Link 
                         to="projects"
-                        // activeClass="activeLink"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -29,7 +27,6 @@ const NavBar = () => {
 
                     <Link 
                         to="contact" 
-                        // activeClass="activeLink"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -39,7 +36,7 @@ const NavBar = () => {
 
                     <Nav.Link href="https://medium.com/@btmccollum" target="_blank" className="navLink" rel="noopener noreferrer">Blog</Nav.Link>
 
-                    <Nav.Link href="https://drive.google.com/file/d/1hfVueJusGbs2Q4jbXMcvvJBWygmgoM_w/view" target="_blank" className="navLink" rel="noopener noreferrer">Résumé</Nav.Link>
+                    <Nav.Link href="https://drive.google.com/file/d/1hfVueJusGbs2Q4jbXMcvvJBWygmgoM_w/view?usp=sharing" target="_blank" className="navLink" rel="noopener noreferrer">Résumé</Nav.Link>
                 </Nav>
             </Navbar>
         </Container>
