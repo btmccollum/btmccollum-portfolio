@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Card, Button, Col } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import cuid from 'cuid';
 
 const ProjectCard = props => {
@@ -8,12 +8,11 @@ const ProjectCard = props => {
     const toggleHover = () => setHovered(!hovered);
 
     const project = props.projectData
-    let herokuLink
 
     // check if JSON object includes a heroku deployment link and return button if so
     const linkReturn = () => {
         if (!!project.herokuLink) { 
-            return <Button className="herokuLink" variant="link" href={project.herokuLink} target="_blank" className="herokuLink">Heroku</Button>
+            return <Button key={cuid()} variant="link" href={project.herokuLink} target="_blank" className="herokuLink">Heroku</Button>
         }
     }
 

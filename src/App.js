@@ -15,7 +15,12 @@ import './App.css';
 // library for fontawesome icons, importing brand icons
 library.add(fab, faEnvelopeSquare)
 
+
 class App extends Component {
+  componentDidMount() {
+    console.log('Thanks for taking a look at my portfolio!\nCheck out my other pages too:\n\nWebsite: www.btmccollum.com\n\nGitHub: www.github.com/btmccollum\n\nLinkedIn: https://www.linkedin.com/in/btmccollum/\n\nBlog: https://medium.com/@btmccollum\n\nTwitter: www.twitter.com/btmccollum\n\nEmail: bmccollum.swe@gmail.com\n\n');
+  }
+  
   render() {
     return (
       <div className="App">
