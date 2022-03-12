@@ -1,8 +1,10 @@
 # [Brad McCollum](https://www.btmccollum.com)
 
-Hello! My name is Brad McCollum and I'm a software engineer located in Fort Worth, Texas.
+Hello! My name is Brad McCollum and I'm a software engineer located in Canterbury, CT.
 
-Currently, I'm pursing a passion for code and looking to transition that into a long and fulfilling career. I've spent the last seven years working in financial services at one of the largest online brokers, most recently serving as a team manager in the backoffice. I graduated from the University of Oklahoma with a degree in Mandarin Language/Literature/Linguistics. 
+I've spent the last three years working as a full-stack developer, primarily with Ruby 
+on Rails and React / Redux. Prior to making a transition to technology, I spent the previous 
+seven years as a results-oriented and highly driven manager in the financial services industry.
 
 This page was created from scratch with React.
 
