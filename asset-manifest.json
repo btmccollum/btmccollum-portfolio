@@ -1,19 +1,19 @@
 {
-  "main.css": "/static/css/main.3a8a9d03.chunk.css",
-  "main.js": "/static/js/main.6ae446fa.chunk.js",
-  "main.js.map": "/static/js/main.6ae446fa.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.59d0a180.chunk.js": "/static/js/2.59d0a180.chunk.js",
-  "static/js/2.59d0a180.chunk.js.map": "/static/js/2.59d0a180.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.fbf6071c3edab96099f7608778e7d4fa.js": "/precache-manifest.fbf6071c3edab96099f7608778e7d4fa.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.3a8a9d03.chunk.css.map": "/static/css/main.3a8a9d03.chunk.css.map",
-  "static/media/100doc.jpg": "/static/media/100doc.aeb27509.jpg",
-  "static/media/8313939304_3f23c85f8c_b.jpg": "/static/media/8313939304_3f23c85f8c_b.958964b8.jpg",
-  "static/media/Screen Shot 2019-06-17 at 3.05.51 PM.png": "/static/media/Screen Shot 2019-06-17 at 3.05.51 PM.4d4eee8c.png",
-  "static/media/analytics-282739_640.png": "/static/media/analytics-282739_640.e4800747.png",
-  "static/media/food-3020282_960_720.jpg": "/static/media/food-3020282_960_720.fe1e3aa4.jpg",
-  "static/media/mccollum-headshot.jpg": "/static/media/mccollum-headshot.a522a673.jpg"
+  "files": {
+    "main.css": "/static/css/main.6297503c.css",
+    "main.js": "/static/js/main.df533065.js",
+    "static/media/100doc.jpg": "/static/media/100doc.1e61f739389d0d391044.jpg",
+    "static/media/Screen Shot 2019-06-17 at 3.05.51 PM.png": "/static/media/Screen Shot 2019-06-17 at 3.05.51 PM.417411abe173e7226f10.png",
+    "static/media/8313939304_3f23c85f8c_b.jpg": "/static/media/8313939304_3f23c85f8c_b.671218181910f043556d.jpg",
+    "static/media/food-3020282_960_720.jpg": "/static/media/food-3020282_960_720.3db21edb50b353ccec66.jpg",
+    "static/media/analytics-282739_640.png": "/static/media/analytics-282739_640.7c86a5c44e3a9d673286.png",
+    "static/media/mccollum-headshot.jpg": "/static/media/mccollum-headshot.688528bbd1948f39e188.jpg",
+    "index.html": "/index.html",
+    "main.6297503c.css.map": "/static/css/main.6297503c.css.map",
+    "main.df533065.js.map": "/static/js/main.df533065.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6297503c.css",
+    "static/js/main.df533065.js"
+  ]
 }
