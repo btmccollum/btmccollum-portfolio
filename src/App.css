@@ -19,12 +19,12 @@
   white-space: normal !important;
   }
 
-.clear { 
-  clear: both; 
+.clear {
+  clear: both;
 }
 
-.nav-link { 
-  cursor: pointer !important; 
+.nav-link {
+  cursor: pointer !important;
 }
 
 /* --- HOME --- */
@@ -53,7 +53,7 @@ span.homeName {
 }
 
 /* account for safari stretching of row */
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
     @media {
       .safari6 {
         display: -webkit-box;
@@ -67,9 +67,9 @@ span.homeName {
 }
 
 /* account for safari stretching of row */
-@media not all and (min-resolution:.001dpcm) { 
+@media not all and (min-resolution:.001dpcm) {
   @media {
-      .safari10 { 
+      .safari10 {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -80,7 +80,7 @@ span.homeName {
   }
 }
 
-.row:before, 
+.row:before,
 .row:after {
   display: none !important;
 }
@@ -275,14 +275,14 @@ span.spacer {
   -webkit-box-shadow: 0 10px 10px -10px black;
 	   -moz-box-shadow: 0 10px 10px -10px black;
           box-shadow: 0 10px 10px -10px black;
-  margin: 10px;  
+  margin: 10px;
 }
 
 .card-img-top {
   min-height: 40%;
   max-height: 40%;
   max-width: 100%;
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 .card-title {
@@ -325,23 +325,23 @@ span.spacer {
 }
 
 .card-footer, a:link {
-  color: rgb(237, 234, 229) !important; 
+  color: rgb(237, 234, 229) !important;
 }
 
 .card-footer, a:visited{
-  color: rgb(237, 234, 229) !important; 
+  color: rgb(237, 234, 229) !important;
 }
 
 .card-footer, a:hover{
-  color: rgb(237, 234, 229) !important; 
+  color: rgb(237, 234, 229) !important;
 }
 
 .card-footer, a:focus{
-  color: rgb(237, 234, 229) !important; 
+  color: rgb(237, 234, 229) !important;
 }
 
 .card-footer, a:active{
-  color: rgb(237, 234, 229) !important; 
+  color: rgb(237, 234, 229) !important;
 }
 
 /* ---BREAK POINTS--- */
