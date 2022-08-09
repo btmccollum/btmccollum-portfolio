@@ -12,10 +12,9 @@ import {
 import { IconContext } from "react-icons";
 
 const About = () => {
-  const introP1 = `A software engineer currently located in Canterbury, CT. I've spent the last three
-    years working as a full-stack developer, primarily with Ruby on Rails and React / Redux. Prior to
-    making a transition to technology, I spent the previous seven years as a results-oriented and
-    highly driven manager in the financial services industry.`;
+  const introP1 = `I've spent the last three years working as a full-stack developer, primarily with
+    Ruby on Rails and React / Redux. Prior to making a transition to technology, I spent the previous
+    seven years as a results-oriented and highly driven manager in the financial services industry.`;
   const introP2 = `Programming has always been of great interest to me, especially since technologies
     are constantly advancing and provide great opportunities for life-long learning. My exposure
     started with some introductory classes to C++ at a young age that really ignited the spark and
